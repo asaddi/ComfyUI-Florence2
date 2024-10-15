@@ -1,0 +1,35 @@
+models:
+  - name: microsoft/Florence-2-large
+    repo_id: microsoft/Florence-2-large
+    revision: 39ddb416a9819d9fa1bacad7b7899099ae4b0a59
+    use_hf_cache: true
+
+  - name: microsoft/Florence-2-base
+    repo_id: microsoft/Florence-2-base
+    revision: ee1f1f163f352801f3b7af6b2b96e4baaa6ff2ff
+    use_hf_cache: true
+
+  - name: MiaoshouAI/Florence-2-large-PromptGen-v1.5
+    repo_id: MiaoshouAI/Florence-2-large-PromptGen-v1.5
+    revision: 28a42440e39c9c32b83f7ae74ec2b3d1540404f0
+    use_hf_cache: true
+
+  - name: MiaoshouAI/Florence-2-base-PromptGen-v1.5
+    repo_id: MiaoshouAI/Florence-2-base-PromptGen-v1.5
+    revision: c06a5f02cc6071a5d65ee5d294cf3732d3097540
+    use_hf_cache: true
+
+  - name: MiaoshouAI/Florence-2-large-PromptGen-v2.0
+    repo_id: MiaoshouAI/Florence-2-large-PromptGen-v2.0
+    revision: 4aa33eaf50aab040fe8523312ff52eb53322c220
+    use_hf_cache: true
+
+  - name: MiaoshouAI/Florence-2-base-PromptGen-v2.0
+    repo_id: MiaoshouAI/Florence-2-base-PromptGen-v2.0
+    revision: 59b6e4bf75d0f3e8a6b1a14211f6a50fcdd48d63
+    use_hf_cache: true
+
+  - name: thwri/CogFlorence-2.2-Large
+    repo_id: thwri/CogFlorence-2.2-Large
+    revision: 01d080efa211991da0398bde8cb935d58bb9e274
+    use_hf_cache: true
