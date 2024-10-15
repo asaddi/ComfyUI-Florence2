@@ -1,3 +1,17 @@
+# asaddi/custom_loader
+
+This is just a private fork meant to address 2 things:
+
+1. Florence and its finetunes require `trust_remote_code=True` since the architecture-specific code lives in the repos and not the `transformers` library itself. (Why, Microsoft??).
+
+   I am *very* paranoid about this, so I only use pinned versions of all Florence repositories. For each pinned repo, I've already verified that the Python code is identical to the original Microsoft versions.
+
+2. If it's downloaded through `huggingface-hub`, I prefer the repositories/snapshots live in the default location.
+
+Anyway, I say it's a private fork but here it is on Github. And that's because I need to clone it from multiple installations.
+
+Feel free to clone it if it interests you, but I keep it up-to-date by rebasing/push-force.
+
 # Florence2 in ComfyUI
 
 > Florence-2 is an advanced vision foundation model that uses a prompt-based approach to handle a wide range of vision and vision-language tasks. 
